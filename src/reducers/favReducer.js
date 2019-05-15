@@ -4,7 +4,7 @@ import { REMOVE_FAV } from './../actions/index';
 const addToFavorite = (state = [], action) => {
     switch (action.type) {
         case ADD_FAV: {
-            console.log("Fav movies ", action.movie);
+            //console.log("Fav movies ", action.movie);
 
             let favMovies = [...state]
             favMovies.push(action.movie)
